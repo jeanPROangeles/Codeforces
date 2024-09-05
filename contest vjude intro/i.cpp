@@ -12,7 +12,7 @@
             if (current == 'W' && next == 'W') return false; 
             if (current == 'H' && (next == 'H' || next == 'W' || next == 'A')) return false; 
         }   
-        return true;
+        return true; 
     }
 
     string makeLongerHowl(std::string fenrir_howl) {

@@ -1,3 +1,11 @@
+/*
+Verifico si la configuración de caballos en un tablero de ajedrez de 5x5 es válida.
+La función isValidConfiguration recorre el tablero y cuenta los caballos (‘k’).
+Si encuentra un caballo, verifica todas las posibles posiciones de ataque de un caballo en un movimiento de ajedrez.
+Si alguna de estas posiciones contiene otro caballo, la configuración es inválida.
+Finalmente, la función verifica si hay exactamente 9 caballos en el tablero.
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
